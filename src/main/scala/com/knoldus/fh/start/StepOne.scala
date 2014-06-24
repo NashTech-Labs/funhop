@@ -6,7 +6,7 @@ object StepOne extends App {
   showMeTheMoney(money1)
   showMeTheMoney(money1.add(0))
 
-  
+  println(money1 == money1.add(0))
   private def showMeTheMoney(m:Money)= println(s"Your money is $m")
   
 }
